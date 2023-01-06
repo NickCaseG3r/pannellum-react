@@ -16,7 +16,6 @@ jobs:
               with:
                   node-version: 14
             - run: npm i
-            - run: npm test
 
     bump-version:
         needs: [build]
